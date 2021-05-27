@@ -1,0 +1,791 @@
+# Logfile created on 2021-04-30 14:42:23 -0300 by logger.rb/v1.4.2
+D, [2021-04-30T14:42:32.303009 #10656] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T14:42:32.303514 #10656] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T14:42:32.303763 #10656] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T14:42:32.303990 #10656] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T14:42:32.356618 #10656] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T14:42:32.358420 #10656] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T14:47:23.030909 #7896] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T14:47:23.031400 #7896] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T14:47:23.031600 #7896] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T14:47:23.032901 #7896] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T14:47:23.046479 #7896] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T14:47:23.046836 #7896] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T14:47:23.063154 #7896] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:14 | mongodb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"mongodb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x41b78543117e4fb7...>}}
+D, [2021-04-30T14:47:23.075355 #7896] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | mongodb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T14:47:24.277021 #7896] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 conn:1:2 sconn:15 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x41b78543117e4fb7...>}], "$db"=>"admin"}
+D, [2021-04-30T14:47:24.288944 #7896] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T14:51:18.176845 #7392] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T14:51:18.177399 #7392] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T14:51:18.177651 #7392] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T14:51:18.178003 #7392] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T14:51:18.196474 #7392] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T14:51:18.196866 #7392] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T14:51:18.218772 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:17 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x1018fb8f37324347...>}}
+D, [2021-04-30T14:51:18.230663 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T14:51:18.232099 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:17 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x1018fb8f37324347...>}}
+D, [2021-04-30T14:51:18.245408 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.013s
+D, [2021-04-30T14:51:24.746791 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:19 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x1018fb8f37324347...>}], "$db"=>"admin"}
+D, [2021-04-30T14:51:24.759251 #7392] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T14:56:32.085708 #13160] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T14:56:32.086276 #13160] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T14:56:32.086589 #13160] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T14:56:32.086985 #13160] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T14:56:32.105640 #13160] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T14:56:32.105982 #13160] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T14:56:32.121831 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:21 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xba1ba7976981444d...>}}
+D, [2021-04-30T14:56:32.133830 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T14:56:32.135171 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:21 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xba1ba7976981444d...>}}
+D, [2021-04-30T14:56:32.146112 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T14:56:40.145362 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:23 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xba1ba7976981444d...>}], "$db"=>"admin"}
+D, [2021-04-30T14:56:40.157616 #13160] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:01:27.498750 #1388] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:01:27.499259 #1388] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:01:27.499494 #1388] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:01:27.499819 #1388] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:01:27.526292 #1388] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:01:27.526720 #1388] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:01:27.544864 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:25 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x715189ec37b74cc6...>}}
+D, [2021-04-30T15:01:27.556476 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:01:27.557841 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:25 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x715189ec37b74cc6...>}}
+D, [2021-04-30T15:01:27.569078 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:01:29.497459 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:27 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x715189ec37b74cc6...>}], "$db"=>"admin"}
+D, [2021-04-30T15:01:29.509836 #1388] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:03:11.917618 #16068] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:03:11.918156 #16068] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:03:11.918453 #16068] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:03:11.918839 #16068] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:03:11.942002 #16068] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:03:11.942881 #16068] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:03:11.969040 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:30 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xbbc4ef7e3e354408...>}}
+D, [2021-04-30T15:03:11.983494 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.014s
+D, [2021-04-30T15:03:11.984807 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:30 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xbbc4ef7e3e354408...>}}
+D, [2021-04-30T15:03:11.998893 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.014s
+D, [2021-04-30T15:03:13.507413 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:31 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xbbc4ef7e3e354408...>}], "$db"=>"admin"}
+D, [2021-04-30T15:03:13.519424 #16068] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:03:55.334066 #8260] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:03:55.334538 #8260] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:03:55.334753 #8260] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:03:55.334981 #8260] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:03:55.357264 #8260] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:03:55.364044 #8260] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:03:55.389401 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:33 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x9b0df63efaaa4367...>}}
+D, [2021-04-30T15:03:55.403456 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.014s
+D, [2021-04-30T15:03:55.405259 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:33 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x9b0df63efaaa4367...>}}
+D, [2021-04-30T15:03:55.419462 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.014s
+D, [2021-04-30T15:04:02.124888 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:35 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x9b0df63efaaa4367...>}], "$db"=>"admin"}
+D, [2021-04-30T15:04:02.136965 #8260] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:04:42.550612 #15800] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:04:42.551246 #15800] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:04:42.551608 #15800] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:04:42.556852 #15800] DEBUG -- : MONGODB | Waiting for up to 29.99 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:04:42.580064 #15800] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:04:42.580377 #15800] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:04:42.596277 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:37 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xb0e4dd3c17f94786...>}}
+D, [2021-04-30T15:04:42.608398 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:04:42.609755 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:37 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createBy"=>nil}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xb0e4dd3c17f94786...>}}
+D, [2021-04-30T15:04:42.626937 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:04:44.781427 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:39 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xb0e4dd3c17f94786...>}], "$db"=>"admin"}
+D, [2021-04-30T15:04:44.793219 #15800] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:17:22.344286 #15528] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:17:22.344789 #15528] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:17:22.345038 #15528] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:17:22.345371 #15528] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:17:22.362435 #15528] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:17:22.362732 #15528] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:17:22.382027 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:41 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xd3c5fe8003504efe...>}}
+D, [2021-04-30T15:17:22.394031 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:17:22.395390 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:41 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xd3c5fe8003504efe...>}}
+D, [2021-04-30T15:17:22.407493 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T15:17:28.855098 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:43 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xd3c5fe8003504efe...>}], "$db"=>"admin"}
+D, [2021-04-30T15:17:28.866814 #15528] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-04-30T15:19:35.458254 #10208] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:19:35.458784 #10208] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:19:35.459007 #10208] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:19:35.459332 #10208] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:19:35.477108 #10208] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:19:35.477470 #10208] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:19:35.496175 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:45 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x4cd76f5d93fa4b87...>}}
+D, [2021-04-30T15:19:35.507908 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:19:35.509292 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:45 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x4cd76f5d93fa4b87...>}}
+D, [2021-04-30T15:19:35.520521 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:19:41.965157 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:47 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x4cd76f5d93fa4b87...>}], "$db"=>"admin"}
+D, [2021-04-30T15:19:41.977158 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:20:48.533129 #10208] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:20:48.533624 #10208] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:20:48.533847 #10208] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:20:48.534092 #10208] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:20:48.550833 #10208] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:20:48.556335 #10208] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:20:48.573947 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:49 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x49585550f95d4034...>}}
+D, [2021-04-30T15:20:48.585995 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:20:48.587443 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:49 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x49585550f95d4034...>}}
+D, [2021-04-30T15:20:48.598498 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:20:50.269492 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:51 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x49585550f95d4034...>}], "$db"=>"admin"}
+D, [2021-04-30T15:20:50.281590 #10208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:21:52.481132 #8892] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:21:52.481631 #8892] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:21:52.481877 #8892] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:21:52.482216 #8892] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:21:52.503352 #8892] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:21:52.504185 #8892] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:21:52.525808 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:53 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x30ae72ff77084636...>}}
+D, [2021-04-30T15:21:52.537400 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:21:52.538753 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:53 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x30ae72ff77084636...>}}
+D, [2021-04-30T15:21:52.549849 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:21:58.940657 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:55 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x30ae72ff77084636...>}], "$db"=>"admin"}
+D, [2021-04-30T15:21:58.952679 #8892] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:23:27.330241 #5192] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:23:27.330760 #5192] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:23:27.331010 #5192] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:23:27.331395 #5192] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:23:27.349584 #5192] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:23:27.350033 #5192] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:23:27.372781 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:58 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x1ed8ccb75bcc4e90...>}}
+D, [2021-04-30T15:23:27.384036 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:23:27.385438 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:58 | markdb.delete | STARTED | {"delete"=>"task", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x1ed8ccb75bcc4e90...>}}
+D, [2021-04-30T15:23:27.396537 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:23:29.252242 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:59 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x1ed8ccb75bcc4e90...>}], "$db"=>"admin"}
+D, [2021-04-30T15:23:29.268905 #5192] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.016s
+D, [2021-04-30T15:26:04.073225 #2804] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:26:04.073752 #2804] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:26:04.074033 #2804] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:26:04.074339 #2804] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:26:04.088667 #2804] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:26:04.088968 #2804] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:26:04.109168 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:61 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x0665ca5eafce494c...>}}
+D, [2021-04-30T15:26:04.120254 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:26:04.121649 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:61 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x0665ca5eafce494c...>}}
+D, [2021-04-30T15:26:04.135105 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.013s
+D, [2021-04-30T15:26:05.751043 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:63 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x0665ca5eafce494c...>}], "$db"=>"admin"}
+D, [2021-04-30T15:26:05.763312 #2804] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:43:35.656407 #9208] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:43:35.657044 #9208] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:43:35.657337 #9208] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:43:35.657712 #9208] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:43:35.674032 #9208] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:43:35.676842 #9208] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:43:35.696842 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:66 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x3bf398af89774102...>}}
+D, [2021-04-30T15:43:35.708884 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:43:35.710213 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:66 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x3bf398af89774102...>}}
+D, [2021-04-30T15:43:35.721823 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:43:36.497651 #9208] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:43:36.497980 #9208] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:43:36.498198 #9208] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:43:36.498444 #9208] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:43:36.513166 #9208] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:43:36.513430 #9208] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:43:36.530667 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:69 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3f8caf512b74038...>}}
+D, [2021-04-30T15:43:36.542542 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:43:36.543856 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:69 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>nil, "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3f8caf512b74038...>}}
+D, [2021-04-30T15:43:36.555443 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T15:43:37.764153 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:70 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3f8caf512b74038...>}], "$db"=>"admin"}
+D, [2021-04-30T15:43:37.777856 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.013s
+D, [2021-04-30T15:43:37.800583 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:71 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x3bf398af89774102...>}], "$db"=>"admin"}
+D, [2021-04-30T15:43:37.812811 #9208] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:44:50.550805 #13288] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:44:50.551650 #13288] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:44:50.551936 #13288] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:44:50.552200 #13288] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:44:50.568725 #13288] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:44:50.569287 #13288] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:44:50.593930 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:74 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xe08ac1be05c84c9f...>}}
+D, [2021-04-30T15:44:50.605910 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:44:50.607269 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:74 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xe08ac1be05c84c9f...>}}
+D, [2021-04-30T15:44:50.618670 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T15:44:51.356351 #13288] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:44:51.356707 #13288] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:44:51.356926 #13288] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:44:51.357239 #13288] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:44:51.373765 #13288] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:44:51.374079 #13288] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:44:51.390442 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:77 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x234a56aa0f594c1b...>}}
+D, [2021-04-30T15:44:51.402302 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:44:51.403844 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:77 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>nil, "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x234a56aa0f594c1b...>}}
+D, [2021-04-30T15:44:51.417822 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.014s
+D, [2021-04-30T15:44:54.110381 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:78 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x234a56aa0f594c1b...>}], "$db"=>"admin"}
+D, [2021-04-30T15:44:54.123051 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:44:54.143064 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:79 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xe08ac1be05c84c9f...>}], "$db"=>"admin"}
+D, [2021-04-30T15:44:54.154756 #13288] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-04-30T15:53:48.270981 #16600] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:53:48.271473 #16600] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:53:48.271693 #16600] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:53:48.272069 #16600] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:53:48.290385 #16600] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:53:48.290721 #16600] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:53:48.313635 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:82 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x4d2111f85e684e88...>}}
+D, [2021-04-30T15:53:48.327450 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.013s
+D, [2021-04-30T15:53:48.329231 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:82 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x4d2111f85e684e88...>}}
+D, [2021-04-30T15:53:48.341827 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T15:53:49.065048 #16600] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:53:49.065423 #16600] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:53:49.065681 #16600] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:53:49.065886 #16600] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:53:49.082855 #16600] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:53:49.083154 #16600] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:53:49.099080 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:84 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x53f22f1cde8e46f4...>}}
+D, [2021-04-30T15:53:49.110946 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:53:49.112259 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:84 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>nil, "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x53f22f1cde8e46f4...>}}
+D, [2021-04-30T15:53:49.124494 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.012s
+D, [2021-04-30T15:53:50.371847 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:86 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x53f22f1cde8e46f4...>}], "$db"=>"admin"}
+D, [2021-04-30T15:53:50.384128 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:53:50.405084 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:87 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x4d2111f85e684e88...>}], "$db"=>"admin"}
+D, [2021-04-30T15:53:50.416739 #16600] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-04-30T15:54:56.035214 #4576] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:54:56.035718 #4576] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:54:56.035945 #4576] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:54:56.036187 #4576] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:54:56.051931 #4576] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:54:56.052376 #4576] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:54:56.093882 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:89 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x091cfc39a5d047b2...>}}
+D, [2021-04-30T15:54:56.107277 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.013s
+D, [2021-04-30T15:54:56.109337 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:89 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x091cfc39a5d047b2...>}}
+D, [2021-04-30T15:54:56.122984 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.013s
+D, [2021-04-30T15:54:56.885234 #4576] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:54:56.885617 #4576] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:54:56.885855 #4576] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:54:56.886066 #4576] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:54:56.903002 #4576] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:54:56.903316 #4576] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:54:56.919296 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:92 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x6a9c805b0a6448a7...>}}
+D, [2021-04-30T15:54:56.931002 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:54:56.932432 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:92 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>nil, "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x6a9c805b0a6448a7...>}}
+D, [2021-04-30T15:54:56.946774 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.014s
+D, [2021-04-30T15:54:57.646908 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:94 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x6a9c805b0a6448a7...>}], "$db"=>"admin"}
+D, [2021-04-30T15:54:57.659492 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:54:57.685693 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:95 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x091cfc39a5d047b2...>}], "$db"=>"admin"}
+D, [2021-04-30T15:54:57.697923 #4576] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T15:56:12.531563 #10280] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:56:12.532011 #10280] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:56:12.532228 #10280] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:56:12.532480 #10280] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:56:12.547813 #10280] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:56:12.548130 #10280] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:56:12.578065 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:97 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x15521e8d39474782...>}}
+D, [2021-04-30T15:56:12.589763 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T15:56:12.592331 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:97 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x15521e8d39474782...>}}
+D, [2021-04-30T15:56:12.604774 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T15:56:13.385772 #10280] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T15:56:13.386107 #10280] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T15:56:13.386317 #10280] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T15:56:13.386520 #10280] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T15:56:13.402607 #10280] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T15:56:13.402949 #10280] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T15:56:13.418943 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:101 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xfb2fc3408f4d4b39...>}}
+D, [2021-04-30T15:56:13.431078 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T15:56:13.432710 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:101 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>nil, "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xfb2fc3408f4d4b39...>}}
+D, [2021-04-30T15:56:13.446125 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.013s
+D, [2021-04-30T15:56:14.214943 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:102 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0xfb2fc3408f4d4b39...>}], "$db"=>"admin"}
+D, [2021-04-30T15:56:14.227761 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.013s
+D, [2021-04-30T15:56:14.250346 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:103 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x15521e8d39474782...>}], "$db"=>"admin"}
+D, [2021-04-30T15:56:14.261383 #10280] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:00.077880 #12124] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:00.078371 #12124] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:00.078611 #12124] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:00.078944 #12124] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:00.093777 #12124] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:00.094084 #12124] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:00.122710 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:106 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x638009b607ea459d...>}}
+D, [2021-04-30T16:23:00.135099 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:00.136411 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:106 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x638009b607ea459d...>}}
+D, [2021-04-30T16:23:00.147481 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:00.887631 #12124] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:00.887995 #12124] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:00.888240 #12124] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:00.888524 #12124] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:00.905053 #12124] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:00.905379 #12124] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:00.921168 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:109 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xee959570cf8c47fa...>}}
+D, [2021-04-30T16:23:00.932902 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:00.934214 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:109 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xee959570cf8c47fa...>}}
+D, [2021-04-30T16:23:00.945181 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:03.174037 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:110 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0xee959570cf8c47fa...>}], "$db"=>"admin"}
+D, [2021-04-30T16:23:03.186008 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:03.205934 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:111 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x638009b607ea459d...>}], "$db"=>"admin"}
+D, [2021-04-30T16:23:03.217947 #12124] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:45.630983 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:45.631465 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:45.631738 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:45.632118 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:45.651660 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:45.652027 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:45.672979 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:114 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x93bfd75600c94a89...>}}
+D, [2021-04-30T16:23:45.685156 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:45.686482 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:114 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x93bfd75600c94a89...>}}
+D, [2021-04-30T16:23:45.699678 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.013s
+D, [2021-04-30T16:23:46.419727 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:46.420096 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:46.420361 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:46.420586 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:46.437126 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:46.437390 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:46.454558 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:117 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51980 type=uuid data=0xcaa17801ac6945a7...>}}
+D, [2021-04-30T16:23:46.466346 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:46.467773 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:117 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51980 type=uuid data=0xcaa17801ac6945a7...>}}
+D, [2021-04-30T16:23:46.478847 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:48.005735 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:48.006206 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:48.006433 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:48.006755 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:48.023519 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:48.023802 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:48.040145 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:1 sconn:119 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52100 type=uuid data=0xea125dfd63834b06...>}}
+D, [2021-04-30T16:23:48.055238 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | markdb.find | SUCCEEDED | 0.015s
+D, [2021-04-30T16:23:48.056423 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:19 conn:1:1 sconn:119 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52100 type=uuid data=0xea125dfd63834b06...>}}
+D, [2021-04-30T16:23:48.067545 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:19 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:49.831970 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:49.832513 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:49.832741 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:49.832989 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:49.850482 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:49.850788 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:49.866785 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:23 conn:1:1 sconn:122 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52640 type=uuid data=0x001df60b512c40e4...>}}
+D, [2021-04-30T16:23:49.878421 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:23 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:49.879637 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:24 conn:1:1 sconn:122 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52640 type=uuid data=0x001df60b512c40e4...>}}
+D, [2021-04-30T16:23:49.892081 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:24 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:51.614041 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:51.614489 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:51.614677 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:51.615069 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:51.632521 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:51.632782 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:51.649448 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:28 conn:1:1 sconn:125 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52760 type=uuid data=0xc17ee8709a0d4059...>}}
+D, [2021-04-30T16:23:51.663173 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:28 | markdb.find | SUCCEEDED | 0.013s
+D, [2021-04-30T16:23:51.664324 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:29 conn:1:1 sconn:125 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52760 type=uuid data=0xc17ee8709a0d4059...>}}
+D, [2021-04-30T16:23:51.676959 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:29 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T16:23:52.628803 #1152] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:23:52.629144 #1152] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:23:52.629355 #1152] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:23:52.629573 #1152] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:23:52.645253 #1152] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:23:52.646892 #1152] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:23:52.668876 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:33 conn:1:1 sconn:129 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52880 type=uuid data=0xcb61f721e7d44fc4...>}}
+D, [2021-04-30T16:23:52.680677 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:33 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:23:52.682384 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:34 conn:1:1 sconn:129 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52880 type=uuid data=0xcb61f721e7d44fc4...>}}
+D, [2021-04-30T16:23:52.694866 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:34 | markdb.count | SUCCEEDED | 0.012s
+D, [2021-04-30T16:24:08.986233 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 conn:1:2 sconn:130 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52880 type=uuid data=0xcb61f721e7d44fc4...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:08.997995 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:24:09.021567 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:38 conn:1:2 sconn:131 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52760 type=uuid data=0xc17ee8709a0d4059...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:09.033356 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:38 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:24:09.053315 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:40 conn:1:2 sconn:132 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52640 type=uuid data=0x001df60b512c40e4...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:09.065149 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:40 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:24:09.084886 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:42 conn:1:2 sconn:133 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52100 type=uuid data=0xea125dfd63834b06...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:09.096821 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:42 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:24:09.117510 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 conn:1:2 sconn:134 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51980 type=uuid data=0xcaa17801ac6945a7...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:09.130993 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 | admin.endSessions | SUCCEEDED | 0.013s
+D, [2021-04-30T16:24:09.151294 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:46 conn:1:2 sconn:135 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51860 type=uuid data=0x93bfd75600c94a89...>}], "$db"=>"admin"}
+D, [2021-04-30T16:24:09.163298 #1152] DEBUG -- : MONGODB | 127.0.0.1:27017 req:46 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:27:07.809343 #3660] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:27:07.823009 #3660] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:27:07.823932 #3660] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:27:07.825422 #3660] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:27:07.855263 #3660] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:27:07.855700 #3660] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:27:07.888142 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:137 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x9e05c57cd64c4df1...>}}
+D, [2021-04-30T16:27:07.906892 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.017s
+D, [2021-04-30T16:27:07.908338 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:137 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x9e05c57cd64c4df1...>}}
+D, [2021-04-30T16:27:07.924769 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.016s
+D, [2021-04-30T16:27:09.020539 #3660] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:27:09.020907 #3660] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:27:09.021120 #3660] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:27:09.021351 #3660] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:27:09.037454 #3660] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:27:09.037781 #3660] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:27:09.056724 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:140 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x1a884c2faebc48a5...>}}
+D, [2021-04-30T16:27:09.068550 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:27:09.069843 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:140 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x1a884c2faebc48a5...>}}
+D, [2021-04-30T16:27:09.080808 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:27:09.975924 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:142 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x1a884c2faebc48a5...>}], "$db"=>"admin"}
+D, [2021-04-30T16:27:09.988079 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:27:10.008081 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:143 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x9e05c57cd64c4df1...>}], "$db"=>"admin"}
+D, [2021-04-30T16:27:10.019824 #3660] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:29:42.822771 #384] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:29:42.823322 #384] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:29:42.823702 #384] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:29:42.824197 #384] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:29:42.842630 #384] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:29:42.843054 #384] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:29:42.864220 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:145 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xa8b84f5a6dda4c12...>}}
+D, [2021-04-30T16:29:42.902624 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.038s
+D, [2021-04-30T16:29:42.907512 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:145 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xa8b84f5a6dda4c12...>}}
+D, [2021-04-30T16:29:42.918490 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:29:43.964876 #384] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:29:43.965226 #384] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:29:43.965407 #384] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:29:43.965600 #384] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:29:43.981924 #384] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:29:43.982230 #384] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:29:44.000726 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:149 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x16e89398590f4d4c...>}}
+D, [2021-04-30T16:29:44.012373 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:29:44.013722 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:149 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x16e89398590f4d4c...>}}
+D, [2021-04-30T16:29:44.026950 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.013s
+D, [2021-04-30T16:29:45.093063 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:150 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x16e89398590f4d4c...>}], "$db"=>"admin"}
+D, [2021-04-30T16:29:45.104876 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:29:45.124101 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:151 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xa8b84f5a6dda4c12...>}], "$db"=>"admin"}
+D, [2021-04-30T16:29:45.136154 #384] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:30:35.373787 #15064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:30:35.374305 #15064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:30:35.374553 #15064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:30:35.374932 #15064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:30:35.389942 #15064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:30:35.390410 #15064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:30:35.409153 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:154 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xd9c505a4cd244ca6...>}}
+D, [2021-04-30T16:30:35.421150 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T16:30:35.425850 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:154 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0xd9c505a4cd244ca6...>}}
+D, [2021-04-30T16:30:35.436877 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:30:36.514636 #15064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:30:36.514981 #15064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:30:36.515193 #15064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:30:36.515408 #15064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:30:36.532234 #15064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:30:36.532494 #15064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:30:36.548705 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:156 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3bf36ab5d604db7...>}}
+D, [2021-04-30T16:30:36.560399 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-04-30T16:30:36.561677 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:156 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um livro", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3bf36ab5d604db7...>}}
+D, [2021-04-30T16:30:36.572644 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:30:37.432552 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:158 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0xd3bf36ab5d604db7...>}], "$db"=>"admin"}
+D, [2021-04-30T16:30:37.444418 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:30:37.466733 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:159 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0xd9c505a4cd244ca6...>}], "$db"=>"admin"}
+D, [2021-04-30T16:30:37.478745 #15064] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:33:42.616303 #14808] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:33:42.616783 #14808] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:33:42.617011 #14808] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:33:42.617329 #14808] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:33:42.624619 #14808] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:33:42.624929 #14808] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:33:49.540598 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:162 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x3a60ba7665344e14...>}}
+D, [2021-04-30T16:33:49.554203 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.013s
+D, [2021-04-30T16:33:49.561670 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:162 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um f", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x3a60ba7665344e14...>}}
+D, [2021-04-30T16:33:49.573869 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-04-30T16:33:56.138264 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:2 sconn:163 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x3a60ba7665344e14...>}], "$db"=>"admin"}
+D, [2021-04-30T16:33:56.150265 #14808] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:35:19.089759 #5012] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:35:19.090342 #5012] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:35:19.090551 #5012] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:35:19.090757 #5012] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:35:19.097645 #5012] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:35:19.097936 #5012] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:35:26.439255 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:166 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x79af6b60cda743af...>}}
+D, [2021-04-30T16:35:26.452420 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.013s
+D, [2021-04-30T16:35:26.456196 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:166 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x79af6b60cda743af...>}}
+D, [2021-04-30T16:35:26.467838 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:35:27.698246 #5012] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:35:27.698615 #5012] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:35:27.698850 #5012] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:35:27.699066 #5012] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:35:27.716323 #5012] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:35:27.716760 #5012] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:35:27.734118 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:1 sconn:168 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x572bbd05966d4a2b...>}}
+D, [2021-04-30T16:35:27.746224 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T16:35:27.747599 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 conn:1:1 sconn:168 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51960 type=uuid data=0x572bbd05966d4a2b...>}}
+D, [2021-04-30T16:35:27.758488 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:14 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:35:28.983592 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:2 sconn:170 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51960 type=uuid data=0x572bbd05966d4a2b...>}], "$db"=>"admin"}
+D, [2021-04-30T16:35:28.995586 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:35:29.018418 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 conn:1:2 sconn:171 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x79af6b60cda743af...>}], "$db"=>"admin"}
+D, [2021-04-30T16:35:29.030282 #5012] DEBUG -- : MONGODB | 127.0.0.1:27017 req:18 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-04-30T16:38:36.868507 #14604] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-04-30T16:38:36.869294 #14604] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-04-30T16:38:36.869630 #14604] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-04-30T16:38:36.869858 #14604] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-04-30T16:38:36.888299 #14604] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-04-30T16:38:36.888648 #14604] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-04-30T16:38:44.467929 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:174 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x32260ba3f8a14d2e...>}}
+D, [2021-04-30T16:38:44.481893 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.014s
+D, [2021-04-30T16:38:44.486922 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:174 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x32260ba3f8a14d2e...>}}
+D, [2021-04-30T16:38:44.497673 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-04-30T16:38:45.606145 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 conn:1:1 sconn:174 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x32260ba3f8a14d2e...>}}
+D, [2021-04-30T16:38:45.618158 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-04-30T16:38:45.619435 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:1 sconn:174 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51840 type=uuid data=0x32260ba3f8a14d2e...>}}
+D, [2021-04-30T16:38:45.630553 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-04-30T16:38:47.871428 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 conn:1:2 sconn:175 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51840 type=uuid data=0x32260ba3f8a14d2e...>}], "$db"=>"admin"}
+D, [2021-04-30T16:38:47.883281 #14604] DEBUG -- : MONGODB | 127.0.0.1:27017 req:13 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-05-03T16:23:57.742062 #8932] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:23:57.742962 #8932] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:23:57.743253 #8932] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:23:57.743514 #8932] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:23:57.762452 #8932] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:23:57.762964 #8932] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:26:56.313612 #14588] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:26:56.314061 #14588] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:26:56.314256 #14588] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:26:56.314469 #14588] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:26:56.331105 #14588] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:26:56.331458 #14588] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:37:26.187490 #12996] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:37:26.188002 #12996] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:37:26.188221 #12996] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:37:26.188442 #12996] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:37:26.208705 #12996] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:37:26.209035 #12996] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:39:46.594979 #12016] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:39:46.595486 #12016] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:39:46.595802 #12016] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:39:46.596131 #12016] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:39:46.618351 #12016] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:39:46.618746 #12016] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:42:55.795381 #9716] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:42:55.795966 #9716] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:42:55.796253 #9716] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:42:55.796493 #9716] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:42:55.814117 #9716] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:42:55.814430 #9716] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:55:19.372037 #3312] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:55:19.372570 #3312] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:55:19.372845 #3312] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:55:19.373083 #3312] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:55:19.394887 #3312] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:55:19.395195 #3312] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:57:00.343512 #8368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:57:00.344140 #8368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:57:00.344414 #8368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:57:00.344642 #8368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:57:00.351273 #8368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:57:00.351595 #8368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T16:58:14.065806 #13540] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T16:58:14.066261 #13540] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T16:58:14.066504 #13540] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T16:58:14.066784 #13540] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T16:58:14.073327 #13540] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T16:58:14.073790 #13540] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T17:01:23.537521 #18404] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T17:01:23.538007 #18404] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T17:01:23.538212 #18404] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T17:01:23.538457 #18404] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T17:01:23.559521 #18404] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T17:01:23.559923 #18404] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T17:02:32.130047 #8020] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T17:02:32.130495 #8020] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T17:02:32.130708 #8020] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T17:02:32.130929 #8020] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T17:02:32.152485 #8020] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T17:02:32.152822 #8020] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:15:57.022901 #4624] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:15:57.023399 #4624] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:15:57.023609 #4624] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:15:57.023823 #4624] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:15:57.031133 #4624] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:15:57.031434 #4624] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:17:35.639211 #10732] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:17:35.639720 #10732] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:17:35.639934 #10732] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:17:35.640170 #10732] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:17:35.658552 #10732] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:17:35.658862 #10732] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:18:28.208738 #17084] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:18:28.209243 #17084] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:18:28.209462 #17084] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:18:28.209779 #17084] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:18:28.228550 #17084] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:18:28.228894 #17084] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:18:41.897243 #17084] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:18:41.897701 #17084] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:18:41.897907 #17084] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:18:41.898214 #17084] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:18:41.917831 #17084] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:18:41.918174 #17084] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:18:48.032870 #17084] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:18:48.033341 #17084] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:18:48.033560 #17084] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:18:48.033785 #17084] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:18:48.048694 #17084] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:18:48.048966 #17084] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:22:28.510553 #9328] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:22:28.511107 #9328] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:22:28.511421 #9328] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:22:28.511726 #9328] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:22:28.532060 #9328] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:22:28.532380 #9328] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:22:35.853652 #9328] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:22:35.854007 #9328] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:22:35.854243 #9328] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:22:35.854464 #9328] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:22:35.870601 #9328] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:22:35.870927 #9328] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:22:36.587745 #9328] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:22:36.588103 #9328] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:22:36.588315 #9328] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:22:36.588510 #9328] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:22:36.604256 #9328] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:22:36.604586 #9328] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:27:16.353581 #17136] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:27:16.354109 #17136] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:27:16.354362 #17136] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:27:16.354695 #17136] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:27:16.366616 #17136] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:27:16.367019 #17136] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:27:24.890514 #17136] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:27:24.891310 #17136] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:27:24.891614 #17136] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:27:24.892070 #17136] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:27:24.909804 #17136] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:27:24.910104 #17136] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:27:25.603846 #17136] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:27:25.604272 #17136] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:27:25.604517 #17136] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:27:25.604861 #17136] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:27:25.621154 #17136] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:27:25.621516 #17136] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:28:18.698724 #17844] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:28:18.699240 #17844] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:28:18.699459 #17844] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:28:18.699800 #17844] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:28:18.719147 #17844] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:28:18.719458 #17844] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:28:27.153034 #17844] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:28:27.153450 #17844] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:28:27.153841 #17844] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:28:27.154068 #17844] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:28:27.170233 #17844] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:28:27.170531 #17844] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:28:28.525422 #17844] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:28:28.525824 #17844] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:28:28.526175 #17844] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:28:28.526404 #17844] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:28:28.542054 #17844] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:28:28.542326 #17844] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:28.039976 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:28.042932 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:28.043179 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:28.043453 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:28.062221 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:28.062549 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:36.311543 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 conn:1:1 sconn:56 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x31d731a388694a51...>}}
+D, [2021-05-03T18:29:36.325935 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:8 | markdb.find | SUCCEEDED | 0.014s
+D, [2021-05-03T18:29:36.330649 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 conn:1:1 sconn:56 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x31d731a388694a51...>}}
+D, [2021-05-03T18:29:36.345034 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:9 | markdb.delete | SUCCEEDED | 0.014s
+D, [2021-05-03T18:29:37.254544 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 conn:1:1 sconn:56 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x31d731a388694a51...>}}
+D, [2021-05-03T18:29:37.266739 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:10 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-05-03T18:29:37.268044 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 conn:1:1 sconn:56 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Fazer compras", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x51860 type=uuid data=0x31d731a388694a51...>}}
+D, [2021-05-03T18:29:37.281705 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:11 | markdb.count | SUCCEEDED | 0.013s
+D, [2021-05-03T18:29:38.044595 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:38.044968 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:38.045173 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:38.045453 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:38.059880 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:38.060169 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:38.722925 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:15 conn:1:1 sconn:59 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52020 type=uuid data=0x0813920119004b49...>}}
+D, [2021-05-03T18:29:38.734887 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:15 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-05-03T18:29:38.739027 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 conn:1:1 sconn:59 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52020 type=uuid data=0x0813920119004b49...>}}
+D, [2021-05-03T18:29:38.753227 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:16 | markdb.delete | SUCCEEDED | 0.014s
+D, [2021-05-03T18:29:39.854776 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:39.855256 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:39.855556 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:39.855884 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:39.872666 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:39.872962 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:40.538386 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:20 conn:1:1 sconn:62 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52560 type=uuid data=0x513cc0ccb5624201...>}}
+D, [2021-05-03T18:29:40.550397 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:20 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-05-03T18:29:40.556047 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:21 conn:1:1 sconn:62 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52560 type=uuid data=0x513cc0ccb5624201...>}}
+D, [2021-05-03T18:29:40.568486 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:21 | markdb.delete | SUCCEEDED | 0.012s
+D, [2021-05-03T18:29:41.962759 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:41.963252 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:41.963473 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:41.963712 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:41.987429 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:41.987824 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:42.632622 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:25 conn:1:1 sconn:65 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52680 type=uuid data=0xd8963cc670374513...>}}
+D, [2021-05-03T18:29:42.644738 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:25 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-05-03T18:29:42.649428 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:26 conn:1:1 sconn:65 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52680 type=uuid data=0xd8963cc670374513...>}}
+D, [2021-05-03T18:29:42.660575 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:26 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-05-03T18:29:43.761011 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:27 conn:1:1 sconn:65 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"ricardo_carteri@hotmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52680 type=uuid data=0xd8963cc670374513...>}}
+D, [2021-05-03T18:29:43.772591 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:27 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-05-03T18:29:43.774121 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:28 conn:1:1 sconn:65 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Ler um figo", "createdBy"=>"xaKZePj4Y3kA2niEa"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x52680 type=uuid data=0xd8963cc670374513...>}}
+D, [2021-05-03T18:29:43.785395 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:28 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-05-03T18:29:44.422896 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:44.423273 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:44.423605 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:44.423855 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:44.440292 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:44.440590 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:45.725589 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:45.725932 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:45.726132 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:45.726349 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:45.743576 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:45.743867 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:46.834549 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:46.834929 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:46.835169 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:46.835392 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:46.851915 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:46.852193 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:47.882930 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:47.883964 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:47.884192 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:47.884426 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:47.899348 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:47.899617 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:49.010304 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:49.010660 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:49.010856 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:49.011047 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:49.026154 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:49.026436 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:50.504691 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:50.505137 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:50.505417 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:50.505849 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:50.523104 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:50.523475 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:51.766281 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:51.766776 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:51.767012 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:51.767290 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:51.784657 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:51.784931 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:52.739838 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:52.740183 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:52.740386 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:52.740646 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:52.757311 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:52.757590 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:53.750336 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:53.750732 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:53.750987 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:53.751297 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:53.768267 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:53.768577 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:54.775107 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:54.775478 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:54.775791 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:54.776080 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:54.791022 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:54.791363 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:55.785424 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:55.785821 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:55.786068 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:55.786324 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:55.803498 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:55.803823 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:57.610474 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:57.610937 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:57.611238 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:57.611529 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:57.628767 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:57.629151 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:29:59.360509 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:29:59.360886 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:29:59.361117 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:29:59.361440 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:29:59.377791 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:29:59.378114 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:30:01.290537 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:30:01.291161 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:30:01.291457 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:30:01.291677 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:30:01.312650 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:30:01.313093 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:30:03.086935 #15480] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-05-03T18:30:03.087347 #15480] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-05-03T18:30:03.087627 #15480] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-05-03T18:30:03.087940 #15480] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-05-03T18:30:03.103769 #15480] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-05-03T18:30:03.104121 #15480] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-05-03T18:30:05.193380 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:60 conn:1:2 sconn:96 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52680 type=uuid data=0xd8963cc670374513...>}], "$db"=>"admin"}
+D, [2021-05-03T18:30:05.204598 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:60 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-05-03T18:30:05.224175 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:62 conn:1:2 sconn:97 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52560 type=uuid data=0x513cc0ccb5624201...>}], "$db"=>"admin"}
+D, [2021-05-03T18:30:05.236480 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:62 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-05-03T18:30:05.256295 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 conn:1:2 sconn:98 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x52020 type=uuid data=0x0813920119004b49...>}], "$db"=>"admin"}
+D, [2021-05-03T18:30:05.268539 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 | admin.endSessions | SUCCEEDED | 0.012s
+D, [2021-05-03T18:30:05.289150 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:66 conn:1:2 sconn:99 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x51860 type=uuid data=0x31d731a388694a51...>}], "$db"=>"admin"}
+D, [2021-05-03T18:30:05.302587 #15480] DEBUG -- : MONGODB | 127.0.0.1:27017 req:66 | admin.endSessions | SUCCEEDED | 0.013s
